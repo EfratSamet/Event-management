@@ -1,0 +1,26 @@
+# Ignore Visual Studio files
+.vs/
+.vscode/
+.idea/
+
+# Ignore node_modules (התקנת חבילות npm)
+node_modules/
+
+# Ignore build outputs
+build/
+dist/
+
+# Ignore temporary and backup files
+*.log
+*.tmp
+*.bak
+
+# Ignore system-specific files
+.DS_Store  # עבור macOS
+Thumbs.db  # עבור Windows
+
+# Ignore npm debug log
+npm-debug.log*
+
+# Ignore environment files (כמו .env)
+.env
